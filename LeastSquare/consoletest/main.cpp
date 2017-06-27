@@ -58,9 +58,9 @@ int main( int argc, int argv )
 
 	// 获取桌面句柄
 	HWND hwnd = GetDesktopWindow();
-	hwnd = ::FindWindowEx(hwnd, NULL, L"Progman", L"Program Manager");
-	hwnd = ::FindWindowEx(hwnd, NULL, L"SHELLDLL_DefView", L"");
-	hwnd = ::FindWindowEx(hwnd, NULL, L"SysListView32", L"FolderView");
+	hwnd = ::FindWindowEx(hwnd, NULL, L"Notepad", L"aa.txt - 记事本");
+	hwnd = ::FindWindowEx(hwnd, NULL, L"Edit", L"");
+	// hwnd = ::FindWindowEx(hwnd, NULL, L"SysListView32", L"FolderView");
 
 	ID2D1Factory* m_pDirect2dFactory = NULL;
 	HRESULT hr = D2D1CreateFactory(D2D1_FACTORY_TYPE_SINGLE_THREADED, &m_pDirect2dFactory);

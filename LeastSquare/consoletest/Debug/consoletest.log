@@ -1,5 +1,5 @@
 ﻿  main.cpp
-f:\git\mathtest\leastsquare\consoletest\main.cpp(30): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
-f:\git\mathtest\leastsquare\consoletest\main.cpp(40): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
-  consoletest.vcxproj -> F:\Git\mathtest\LeastSquare\Debug\consoletest.exe
-  consoletest.vcxproj -> F:\Git\mathtest\LeastSquare\Debug\consoletest.pdb (Full PDB)
+e:\test\opencvtest\mathtest\leastsquare\consoletest\main.cpp(30): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+e:\test\opencvtest\mathtest\leastsquare\consoletest\main.cpp(40): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+  consoletest.vcxproj -> E:\test\opencvtest\mathtest\LeastSquare\Debug\consoletest.exe
+  consoletest.vcxproj -> E:\test\opencvtest\mathtest\LeastSquare\Debug\consoletest.pdb (Full PDB)
